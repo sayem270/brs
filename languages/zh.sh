@@ -1,0 +1,203 @@
+#!/bin/bash
+# Chinese Simplified language file for Brabus Recon Suite (BRS)
+# Company: EasyProTech LLC (www.easypro.tech)
+# Language: 中文简体 (zh)
+
+# Global
+LANG_NAME="中文简体"
+LANG_CODE="zh"
+
+# Main Menu
+MENU_TITLE="🎯 主菜单"
+MENU_SEPARATOR="=========================="
+MENU_NETWORK_DISCOVERY="🌐 网络发现"
+MENU_PORT_SCANNER="🔍 端口扫描器" 
+MENU_VULNERABILITY_SCANNER="🛡️ 漏洞扫描器"
+MENU_SYSINFO="🖥️ 系统信息"
+MENU_ATTACK_TOOLS="⚔️ 攻击工具"
+MENU_VIEW_RESULTS="📊 查看结果"
+MENU_CLEANUP="🧹 清理结果"
+MENU_SETTINGS="🔧 设置"
+MENU_HELP="📚 帮助"
+MENU_LANGUAGE="🌍 语言 / Language"
+MENU_TOOLS="🔧 检查工具"
+MENU_EXIT="退出"
+
+# Settings submenu
+SETTINGS_TITLE="🔧 设置"
+SETTINGS_SEPARATOR="======================"
+SETTINGS_LANGUAGE="🌍 语言 / Language"
+SETTINGS_TOOLS="🔧 检查工具"
+SETTINGS_HELP="📚 帮助"
+SETTINGS_BACK="← 返回主菜单"
+MENU_CHOOSE_OPTION="选择选项"
+MENU_INVALID_CHOICE="❌ 无效选择"
+MENU_PRESS_ENTER="按回车键继续..."
+
+# Network Discovery
+NET_TITLE="🌐 本地网络扫描"
+NET_SEPARATOR="================================="
+NET_TARGET_NETWORK="🎯 目标网络"
+NET_SEARCHING_HOSTS="📡 搜索活动主机..."
+NET_ARP_SCANNING="🔍 ARP扫描..."
+NET_HOSTS_FOUND="✅ 发现活动主机"
+NET_LIVE_HOSTS="📋 活动主机："
+NET_PORT_SCANNING="🔍 快速端口扫描..."
+NET_SCANNING_HOST="🎯 扫描"
+NET_SCAN_COMPLETE="✅ 扫描完成！"
+NET_RESULTS_SAVED="📁 结果已保存："
+NET_LIVE_HOSTS_FILE="- 活动主机"
+NET_SCAN_RESULTS_FILE="- 扫描结果"
+NET_STATISTICS="📊 快速统计："
+NET_TOTAL_HOSTS="主机总数"
+NET_OPEN_PORTS="发现的开放端口"
+NET_SSH_SERVERS="SSH服务器"
+NET_HTTP_SERVERS="HTTP服务器"
+NET_HTTPS_SERVERS="HTTPS服务器"
+
+# Common
+COMMON_YES="是"
+COMMON_NO="否"
+COMMON_CANCEL="取消"
+COMMON_CONTINUE="继续"
+COMMON_BACK="返回"
+COMMON_ERROR="错误"
+COMMON_SUCCESS="成功"
+COMMON_WARNING="警告"
+COMMON_INFO="信息"
+COMMON_LOADING="加载中..."
+COMMON_PLEASE_WAIT="请稍等..."
+COMMON_DONE="完成"
+COMMON_FAILED="失败"
+COMMON_ENTER_IP="输入IP地址"
+COMMON_ENTER_TARGET="输入目标"
+COMMON_CONFIRM="确认"
+
+# System Information Module
+SYSINFO_TITLE="🖥️ 系统信息报告"
+SYSINFO_SEPARATOR="=================================="
+SYSINFO_TIMESTAMP="时间戳"
+SYSINFO_GENERATED_BY="生成者"
+SYSINFO_COLLECTING="📊 收集系统信息..."
+SYSINFO_ANALYZING="🔍 分析系统配置..."
+SYSINFO_COMPLETE="✅ 系统分析完成"
+SYSINFO_RESULTS_SAVED="💾 结果已保存："
+
+# System sections
+SYSINFO_SYSTEM="🖥️ 系统信息"
+SYSINFO_HARDWARE="⚙️ 硬件信息"
+SYSINFO_NETWORK="🌐 网络配置"
+SYSINFO_SECURITY="🔒 安全状态"
+SYSINFO_SERVICES="🔧 运行中的服务"
+SYSINFO_PERIPHERALS="🔌 连接的设备"
+
+# System Info Menu
+SYSINFO_MENU_FULL="📊 完整系统报告"
+SYSINFO_MENU_SYSTEM="🖥️ 仅系统信息"
+SYSINFO_MENU_HARDWARE="⚙️ 仅硬件信息"
+SYSINFO_MENU_NETWORK="🌐 仅网络配置"
+SYSINFO_MENU_SECURITY="🔒 仅安全状态"
+SYSINFO_MENU_SERVICES="🔧 仅运行中的服务"
+SYSINFO_MENU_DEVICES="🔌 仅连接的设备"
+
+# Status indicators
+SYSINFO_ACTIVE="活动"
+SYSINFO_INACTIVE="非活动"
+SYSINFO_ENABLED="已启用"
+SYSINFO_DISABLED="已禁用"
+SYSINFO_RUNNING="运行中"
+SYSINFO_STOPPED="已停止"
+SYSINFO_UNKNOWN="未知"
+
+# Port Connectivity Check Messages
+CONNECTIVITY_CHECKING="🚧 检查目标连接性"
+CONNECTIVITY_SSH_FAILED="❌ SSH端口不可达或IP被封. 攻击不可能."
+CONNECTIVITY_FTP_FAILED="❌ FTP端口不可达或IP被封. 攻击不可能."
+CONNECTIVITY_HTTP_FAILED="❌ HTTP端口不可达或IP被封. 攻击不可能."
+CONNECTIVITY_SUCCESS="✅ 端口可达，开始攻击..."
+CONNECTIVITY_REASONS="💡 可能的原因："
+CONNECTIVITY_PORT_CLOSED="- 端口关闭"
+CONNECTIVITY_IP_BANNED="- IP被fail2ban封锁"
+CONNECTIVITY_FIREWALL="- 防火墙阻止连接"
+CONNECTIVITY_SERVER_DOWN="- 服务器不可达"
+CONNECTIVITY_CHECK_AVAILABILITY="💡 检查可用性"
+
+# Attack Tools Module
+ATTACK_TOOLS_TITLE="🔧 攻击工具"
+ATTACK_WARNING_TITLE="⚠️  警告！ ⚠️"
+ATTACK_WARNING_TEXT="这些工具仅用于测试您自己网络的安全性！"
+ATTACK_WARNING_ILLEGAL="未经许可对他人系统使用是非法的！"
+ATTACK_CONTINUE_PROMPT="继续？(y/N)："
+ATTACK_OPERATION_CANCELLED="操作已取消"
+
+# Attack Tools
+ATTACK_SSH_BRUTE="SSH暴力破解"
+ATTACK_FTP_BRUTE="FTP暴力破解"
+ATTACK_HTTP_BRUTE="HTTP基本认证暴力破解"
+ATTACK_TARGET_PROMPT="输入目标(IP)："
+ATTACK_TARGET_NOT_SPECIFIED="❌ 未指定目标"
+ATTACK_SELECT_MODE="选择模式："
+ATTACK_FAST_MODE="快速攻击（基本密码）"
+ATTACK_DICT_MODE="字典攻击"
+ATTACK_COMBINED_MODE="组合攻击"
+ATTACK_RESULTS_SAVED="✅ 结果已保存："
+ATTACK_INVALID_CHOICE="❌ 无效选择"
+ATTACK_GOODBYE="👋 再见！"
+
+# Vulnerability Scanner
+VULN_SCANNER_TITLE="🛡️ 漏洞扫描器"
+VULN_NSE_SCRIPTS="NSE nmap 脚本（漏洞）"
+VULN_NIKTO_WEB="Nikto - Web漏洞"
+VULN_SQLMAP="SQLmap - SQL注入"
+VULN_NSE_SCANNING="🔍 NSE漏洞扫描"
+VULN_NIKTO_SCANNING="🌐 Nikto Web漏洞扫描"
+VULN_SQLMAP_SCANNING="💉 SQLmap SQL注入扫描"
+
+# Port Scanner
+PORT_SCANNER_TITLE="🎯 详细端口扫描"
+PORT_FAST_SCAN="快速扫描（前1000端口）"
+PORT_FULL_SCAN="完整扫描（全部65535端口）"
+PORT_STEALTH_SCAN="隐蔽SYN扫描"
+PORT_FAST_SCANNING="🚀 快速扫描"
+PORT_FULL_SCANNING="🔍 完整扫描（可能需要时间）"
+PORT_STEALTH_SCANNING="🥷 隐蔽SYN扫描"
+PORT_TARGET_PROMPT="输入目标（IP或范围）："
+
+# Language Selection
+LANG_TITLE="🌍 语言选择"
+LANG_CURRENT="当前语言"
+LANG_AVAILABLE="可用语言："
+LANG_CHANGE_SUCCESS="✅ 语言更改成功！"
+LANG_RESTART_REQUIRED="请重启应用程序以应用更改。"
+
+# Input Messages
+INPUT_SELECT_MODE="选择模式(1-3)："
+INPUT_SELECTED_MODE="✅ 已选择模式："
+INPUT_SELECTED_TARGET="✅ 目标："
+INPUT_SELECTED_URL="✅ URL："
+
+# File and Directory Messages
+FILE_NOT_FOUND="文件未找到"
+FILE_CREATED="文件已创建"
+FILE_SAVED="文件已保存"
+RESULTS_SAVED_TO="结果已保存到"
+NO_RESULTS="未找到结果"
+
+# Error Messages
+ERROR_INVALID_IP="无效IP地址"
+ERROR_NETWORK_UNREACHABLE="网络不可达"
+ERROR_PERMISSION_DENIED="权限被拒绝"
+ERROR_TOOL_NOT_FOUND="未找到所需工具"
+ERROR_SCAN_FAILED="扫描失败"
+ERROR_TIMEOUT="操作超时"
+
+# Success Messages
+SUCCESS_SCAN_COMPLETE="扫描成功完成"
+SUCCESS_OPERATION_COMPLETE="操作成功完成"
+
+# Timeout Messages
+TIMEOUT_SCANNING_WITH="⏱️ 扫描超时时间："
+TIMEOUT_TIMED_OUT_AFTER="⚠️ 扫描在超时后中断"
+TIMEOUT_SCAN_FAILED="❌ 扫描失败"
+TIMEOUT_SCAN_COMPLETED="✅ 扫描完成"
+TIMEOUT_SCAN_TIMED_OUT="扫描超时" 

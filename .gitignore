@@ -1,0 +1,5 @@
+# Brabus Recon Suite (BRS) - Git Ignore
+# Company: EasyProTech LLC (www.easypro.tech)
+
+# Exclude info directory
+---info/ 

@@ -1,0 +1,14 @@
+admin
+administrator
+root
+user
+guest
+test
+operator
+service
+daemon
+www
+ftp
+mail
+nobody
+postmaster

@@ -1,0 +1,11 @@
+root:root
+root:toor
+root:password
+root:123456
+admin:admin
+admin:password
+user:user
+guest:guest
+test:test
+pi:raspberry
+ubuntu:ubuntu
