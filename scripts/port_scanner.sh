@@ -2,9 +2,26 @@
 
 # Brabus Recon Suite (BRS) - Port Scanner Module
 # Comprehensive port scanning and service enumeration
-# Company: EasyProTech LLC (www.easypro.tech)
+# Company: ООО "ИЗИПРОТЕК" (www.easypro.tech)
 # Author: brabus
 # Version: 1.0
+
+# ⚠️ LEGAL WARNING ⚠️
+# UNAUTHORIZED SCANNING IS ILLEGAL
+# 
+# Port scanning can be considered reconnaissance activity under computer
+# crime laws. Use ONLY on systems you own or have explicit written 
+# authorization to test.
+#
+# Unauthorized use may result in legal consequences including criminal
+# charges, fines, and civil liability.
+#
+# BY USING THIS MODULE, YOU ACKNOWLEDGE:
+# • You own the target systems OR have explicit written authorization
+# • You understand applicable laws in your jurisdiction
+# • You accept FULL RESPONSIBILITY for your actions
+#
+# IF YOU CANNOT MAKE THESE DECLARATIONS, EXIT NOW (Ctrl+C)
 
 RED='\033[0;31m'
 GREEN='\033[0;32m'

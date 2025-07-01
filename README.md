@@ -14,10 +14,31 @@
 
 Powerful suite of tools for network reconnaissance, vulnerability assessment and penetration testing of local networks.
 
-## ⚠️ IMPORTANT WARNING
+## 🚨 CRITICAL LEGAL WARNING
 
-**USE ONLY ON YOUR OWN NETWORKS OR WITH EXPLICIT WRITTEN PERMISSION!**
-EasyProTech LLC and the author are not responsible for unauthorized use.
+**⚠️ UNAUTHORIZED USE IS ILLEGAL AND MAY RESULT IN CRIMINAL PROSECUTION ⚠️**
+
+**THIS IS A PENETRATION TESTING TOOLKIT FOR AUTHORIZED SECURITY TESTING ONLY**
+
+Using this software to scan, probe, or attack networks, systems, or services that you do not own or have explicit written permission to test is **ILLEGAL** and may result in:
+
+- **Criminal charges** and prosecution under computer crime laws (CFAA, etc.)
+- **Substantial fines** (potentially millions of dollars depending on jurisdiction)
+- **Prison time** (multiple years depending on severity and jurisdiction)
+- **Permanent criminal record** affecting future employment and travel opportunities
+- **Civil lawsuits** for damages, business disruption, and legal costs
+
+**AUTHORIZED USE ONLY:**
+- Your own networks and systems
+- With explicit written authorization from system owners
+- Within scope of authorized penetration testing contracts
+- As part of legitimate bug bounty programs
+- In controlled educational environments with proper supervision
+
+**COMPLETE DISCLAIMER OF LIABILITY:**
+EasyProTech LLC, its officers, employees, and contributors provide this software "AS IS" with NO WARRANTY and are NOT RESPONSIBLE for any damage, harm, legal consequences, or misuse. Users accept FULL RESPONSIBILITY and agree to indemnify EasyProTech LLC.
+
+**READ BEFORE USE:** See LEGAL.md, ETHICS.md, and DISCLAIMER.md for complete terms.
 
 ## 📦 Installation
 
@@ -268,29 +289,72 @@ If you encounter issues:
 
 *Use these tools ethically and within legal boundaries.*
 
-## ⚠️ ETHICAL DISCLAIMER
+## ⚖️ LEGAL DISCLAIMER AND USER AGREEMENT
 
-**FOR EDUCATIONAL AND AUTHORIZED TESTING ONLY**
+**🚨 CRITICAL: READ CAREFULLY BEFORE DOWNLOADING OR USING**
 
-This tool is designed for:
-- ✅ **Cybersecurity professionals** conducting authorized penetration tests
-- ✅ **Security researchers** and students learning ethical hacking
-- ✅ **Network administrators** testing their own infrastructure
-- ✅ **Bug bounty hunters** with proper authorization
+**BY DOWNLOADING, INSTALLING, OR USING THIS SOFTWARE, YOU ACKNOWLEDGE THAT YOU HAVE READ, UNDERSTOOD, AND AGREE TO BE LEGALLY BOUND BY ALL TERMS AND CONDITIONS.**
 
-**PROHIBITED USES:**
-- ❌ Unauthorized network scanning or penetration testing
-- ❌ Attacking systems without explicit written permission
-- ❌ Any illegal or malicious activities
-- ❌ Violating terms of service or applicable laws
+### AUTHORIZED USERS ONLY:
+- ✅ **Cybersecurity professionals** with explicit written authorization
+- ✅ **Penetration testers** working under signed contracts
+- ✅ **System administrators** testing their own infrastructure
+- ✅ **Bug bounty hunters** within program scope and rules
+- ✅ **Security researchers** on owned/authorized systems only
+- ✅ **Students** in controlled educational environments with supervision
 
-**By using this tool, you agree to:**
-1. Only use it on networks and systems you own or have explicit written permission to test
-2. Comply with all applicable local, state, and federal laws
-3. Take full responsibility for your actions
-4. Not hold the developers liable for any misuse
+### ABSOLUTELY PROHIBITED:
+- ❌ **Unauthorized scanning** of any networks or systems
+- ❌ **Unauthorized penetration testing** (even "harmless" reconnaissance)
+- ❌ **Corporate espionage** or competitive intelligence gathering
+- ❌ **Personal attacks** or vendettas against individuals/organizations
+- ❌ **Proof-of-concept attacks** on others' systems
+- ❌ **Any illegal activities** under local, national, or international law
 
-**The developers do not condone, encourage, or support the use of this tool for illegal activities.**
+### LEGAL CONSEQUENCES OF MISUSE:
+Unauthorized use may result in prosecution under:
+- **United States**: Computer Fraud and Abuse Act (18 U.S.C. § 1030)
+- **European Union**: Directive 2013/40/EU on attacks against information systems
+- **United Kingdom**: Computer Misuse Act 1990
+- **Russian Federation**: Criminal Code Articles 272-274 (computer crimes)
+- **People's Republic of China**: Criminal Law Articles 285-287, Cybersecurity Law
+- **International**: Council of Europe Convention on Cybercrime
+- **Plus applicable state, provincial, and national laws worldwide**
+
+### YOUR LEGAL OBLIGATIONS:
+By using this software, you declare under penalty of perjury that:
+1. **You own the target systems** OR have explicit written authorization
+2. **You understand applicable laws** in your jurisdiction
+3. **You accept full legal responsibility** for your actions and their consequences
+4. **You will indemnify and hold harmless** EasyProTech LLC from any claims
+5. **You will cease use immediately** if authorization is revoked
+
+### COMPLETE DISCLAIMER OF LIABILITY:
+**EASYPROTECH LLC, ITS OFFICERS, DIRECTORS, EMPLOYEES, AND CONTRIBUTORS:**
+- Provide this software "AS IS" with **NO WARRANTY** of any kind
+- Are **NOT RESPONSIBLE** for any damage, harm, or legal consequences
+- **EXPRESSLY DISCLAIM** all liability for misuse of this software
+- **MAXIMUM LIABILITY** for any claim shall not exceed $1.00
+
+**YOU USE THIS SOFTWARE AT YOUR OWN RISK AND BEAR FULL RESPONSIBILITY.**
+
+### INDEMNIFICATION:
+You agree to **INDEMNIFY, DEFEND, AND HOLD HARMLESS** EasyProTech LLC and its affiliates from any claims, damages, losses, liabilities, costs, or expenses (including attorney's fees) arising from your use or misuse of this software.
+
+### REPORTING MISUSE:
+If you become aware of misuse of this software, report it immediately to:
+- Local law enforcement agencies
+- Relevant cybersecurity authorities (FSB, MVD for Russian Federation)
+- Software maintainers via @easyprotechaifactory (Telegram)
+
+### COOPERATION WITH AUTHORITIES:
+EasyProTech LLC is ready for full cooperation with law enforcement agencies of the Russian Federation in identifying and prosecuting those who use this software unethically.
+
+---
+
+**⚠️ FINAL WARNING: If you cannot make the required legal declarations above, DO NOT USE THIS SOFTWARE. When in doubt, consult with qualified legal counsel familiar with cybersecurity law.**
+
+**The goal of security testing is to improve security, not cause harm. Use responsibly or face serious legal consequences.**
 
 ## 📞 Support
 
@@ -302,5 +366,28 @@ If someone wants to help with development — contributions are welcome. But the
 
 ## 📜 License
 
-MIT License – Released by EasyProTech LLC  
-Lead Developer: Brabus 
+**DUAL LICENSE STRUCTURE** – Enhanced Legal Protection
+
+This software is available under **TWO LICENSE OPTIONS**:
+
+### 🆓 GPLv3 License (Open Source)
+- **For**: Educational, research, personal, and open-source projects
+- **Requirements**: Copyleft compliance, source code disclosure for derivatives
+- **Default**: Applies automatically if no commercial license obtained
+
+### 💼 Commercial License
+- **For**: Commercial entities, proprietary projects, closed-source derivatives  
+- **Benefits**: No copyleft requirements, proprietary use allowed
+- **Contact**: @easyprotechaifactory (Telegram)
+
+**GPLv3 provides stronger legal protection than MIT** through:
+- Copyleft enforcement preventing unauthorized commercialization
+- Enhanced attribution requirements
+- Automatic license termination for violations
+- International legal framework recognition
+
+**See LICENSE file for complete dual-license terms.**
+
+---
+
+**Released by EasyProTech LLC | Lead Developer: brabus | Licensed under GPLv3 + Commercial | @easyprotechaifactory** 

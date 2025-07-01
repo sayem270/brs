@@ -2,9 +2,23 @@
 
 # Brabus Recon Suite (BRS) - Network Discovery Module
 # Network reconnaissance and host enumeration script
-# Company: EasyProTech LLC (www.easypro.tech)
+# Company: ООО "ИЗИПРОТЕК" (www.easypro.tech)
 # Author: brabus
 # Version: 1.0
+
+# ⚠️ LEGAL WARNING ⚠️
+# UNAUTHORIZED SCANNING IS ILLEGAL
+# 
+# Network discovery and reconnaissance may be considered illegal activity
+# under computer crime laws. Use ONLY on networks you own or have explicit
+# written authorization to scan.
+#
+# BY USING THIS MODULE, YOU ACKNOWLEDGE:
+# • You own the target networks OR have explicit written authorization  
+# • You understand applicable laws in your jurisdiction
+# • You accept FULL RESPONSIBILITY for your actions
+#
+# IF YOU CANNOT MAKE THESE DECLARATIONS, EXIT NOW (Ctrl+C)
 
 RED='\033[0;31m'
 GREEN='\033[0;32m'

@@ -1,21 +1,147 @@
-MIT License
+# DUAL LICENSE TERMS
+## Brabus Recon Suite (BRS) - Licensing Framework
 
-Copyright (c) 2025 EasyProTech LLC
+**Copyright (c) 2025 ООО "ИЗИПРОТЕК" (EasyProTech LLC)**
+**All rights reserved.**
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+---
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+## 📋 DUAL LICENSING STRUCTURE
+
+This software is available under **TWO DISTINCT LICENSE OPTIONS**. Users must choose ONE:
+
+### 1. 🆓 GNU GENERAL PUBLIC LICENSE v3.0 (GPLv3)
+**For open-source, non-commercial, and educational use**
+
+### 2. 💼 COMMERCIAL LICENSE  
+**For commercial, proprietary, or restricted use**
+
+---
+
+## 🔓 OPTION 1: GPLv3 LICENSE (Open Source)
+
+**Available for**: Educational, research, personal, and open-source projects
+
+**Requirements**:
+- Source code of derivative works must be published under GPLv3
+- Attribution to EasyProTech LLC must be maintained
+- Any modifications must be clearly documented
+- **STRICT COPYLEFT** - derivative works must remain open source
+
+**Disclaimer**: This license option includes the standard GPLv3 warranty disclaimers and liability limitations.
+
+### GPLv3 FULL TEXT:
+
+GNU GENERAL PUBLIC LICENSE
+Version 3, 29 June 2007
+
+Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
+Everyone is permitted to copy and distribute verbatim copies
+of this license document, but changing it is not allowed.
+
+## Preamble
+
+The GNU General Public License is a free, copyleft license for
+software and other kinds of works.
+
+[Continue with full GPLv3 text - abbreviated here for space]
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE. 
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF THIRD PARTY RIGHTS.
+IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR CONTRIBUTORS BE LIABLE FOR ANY CLAIM,
+DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE.
+
+---
+
+## 💼 OPTION 2: COMMERCIAL LICENSE
+
+**Available for**: Commercial entities, proprietary projects, closed-source derivatives
+
+**Requirements**:
+- Written license agreement with EasyProTech LLC
+- License fees as negotiated
+- Compliance with commercial terms
+- **NO COPYLEFT** requirements
+
+**Benefits**:
+- Proprietary use allowed
+- No source code disclosure required
+- Commercial redistribution permitted
+- Priority support available
+- Indemnification options available
+
+**To obtain a commercial license**:
+- Contact: @easyprotechaifactory (Telegram)
+- Website: www.easypro.tech
+- Include: intended use, scale, and distribution plans
+
+---
+
+## ⚖️ LICENSE SELECTION AND COMPLIANCE
+
+### Default License:
+**If no explicit license choice is made, GPLv3 terms apply automatically.**
+
+### License Enforcement:
+- **GPLv3 violations** will be prosecuted to the full extent of the law
+- **Commercial license violations** will result in immediate termination and legal action
+- **Unauthorized use** (neither license followed) constitutes copyright infringement
+
+### Additional Restrictions:
+Regardless of license chosen, the following activities are **ABSOLUTELY PROHIBITED**:
+
+1. **Unauthorized penetration testing** or network attacks
+2. **Criminal activities** using this software
+3. **Circumventing** security measures without permission
+4. **Misrepresentation** of authorization or ownership
+5. **Military or warfare applications** without explicit written permission
+
+### License Compatibility:
+- **GPLv3**: Compatible with other GPLv3 and compatible open-source licenses
+- **Commercial**: Negotiable compatibility with proprietary licenses
+
+---
+
+## 🚨 ENHANCED LIABILITY DISCLAIMER
+
+**REGARDLESS OF LICENSE CHOSEN:**
+
+### No Warranty:
+THIS SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND. ООО "ИЗИПРОТЕК" EXPRESSLY DISCLAIMS ALL WARRANTIES, WHETHER EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+
+### Limitation of Liability:
+**IN NO EVENT SHALL ООО "ИЗИПРОТЕК", ITS OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, OR AFFILIATES BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, PUNITIVE, OR CONSEQUENTIAL DAMAGES (INCLUDING BUT NOT LIMITED TO PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.**
+
+### Maximum Liability Cap:
+**THE MAXIMUM AGGREGATE LIABILITY OF ООО "ИЗИПРОТЕК" FOR ANY CLAIM ARISING OUT OF OR RELATING TO THIS SOFTWARE SHALL NOT EXCEED ONE DOLLAR ($1.00 USD).**
+
+### Indemnification:
+**By using this software under either license, you agree to INDEMNIFY, DEFEND, AND HOLD HARMLESS ООО "ИЗИПРОТЕК" and its affiliates from any claims, damages, losses, costs, or expenses (including reasonable attorney's fees) arising from your use or misuse of the software.**
+
+---
+
+## 📞 CONTACT INFORMATION
+
+**ООО "ИЗИПРОТЕК" (EasyProTech LLC)**
+- **Website**: www.easypro.tech
+- **Contact**: @easyprotechaifactory (Telegram)
+- **Commercial Licensing**: @easyprotechaifactory (Telegram)
+- **All Issues**: @easyprotechaifactory (Telegram)
+
+---
+
+## 📅 LICENSE TERMS
+
+- **Effective Date**: June 30, 2025
+- **Governing Law**: Russian Federation (primary), applicable local laws (secondary)
+- **Jurisdiction**: Russian Federation
+- **License Version**: 1.0
+
+---
+
+**⚠️ IMPORTANT: This is a legally binding agreement. If you do not agree to these terms, you are not permitted to download, install, or use this software. When in doubt, consult with qualified legal counsel.**
+
+**ООО "ИЗИПРОТЕК" | Brabus Recon Suite v1.0 | Dual License Framework** 

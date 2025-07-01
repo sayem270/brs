@@ -2,7 +2,7 @@
 
 # Brabus Recon Suite (BRS) - Main Control Script
 # Network reconnaissance and penetration testing toolkit
-# Company: EasyProTech LLC (www.easypro.tech)
+# Company: ООО "ИЗИПРОТЕК" (www.easypro.tech)
 # Author: brabus
 # Version: 1.0
 
@@ -31,6 +31,156 @@ else
     echo "Please ensure tools.sh is in the same directory as main.sh"
     exit 1
 fi
+
+# Ethics and Legal Agreement System
+ETHICS_AGREEMENT_FILE="$CONFIG_DIR/ethics_agreement.conf"
+FIRST_RUN_FLAG="$CONFIG_DIR/first_run.flag"
+
+show_legal_warning() {
+    clear
+    echo -e "${RED}"
+    echo "╔══════════════════════════════════════════════════════════════╗"
+    echo "║                    ⚠️  CRITICAL WARNING  ⚠️                    ║"
+    echo "║              UNAUTHORIZED USE IS ILLEGAL                     ║"
+    echo "╚══════════════════════════════════════════════════════════════╝"
+    echo -e "${NC}"
+    echo ""
+    echo -e "${YELLOW}This toolkit contains powerful penetration testing tools that can${NC}"
+    echo -e "${YELLOW}cause significant damage if misused. Unauthorized use may result in:${NC}"
+    echo ""
+    echo -e "${RED}• Criminal charges and prosecution under computer crime laws${NC}"
+    echo -e "${RED}• Substantial fines (potentially millions of dollars)${NC}"
+    echo -e "${RED}• Prison time (multiple years depending on jurisdiction)${NC}"
+    echo -e "${RED}• Permanent criminal record affecting employment and travel${NC}"
+    echo -e "${RED}• Civil lawsuits for damages and business disruption${NC}"
+    echo ""
+    echo -e "${GREEN}AUTHORIZED USE ONLY:${NC}"
+    echo -e "${GREEN}• Your own networks and systems${NC}"
+    echo -e "${GREEN}• With explicit written authorization from system owners${NC}"
+    echo -e "${GREEN}• Within scope of authorized penetration testing contracts${NC}"
+    echo -e "${GREEN}• As part of legitimate bug bounty programs${NC}"
+    echo ""
+    echo -e "${CYAN}For complete legal terms: see LEGAL.md${NC}"
+    echo -e "${CYAN}For ethical guidelines: see ETHICS.md${NC}"
+    echo ""
+}
+
+require_ethics_agreement() {
+    if [ -f "$ETHICS_AGREEMENT_FILE" ]; then
+        source "$ETHICS_AGREEMENT_FILE"
+        if [ "$ETHICS_AGREED" = "true" ] && [ "$AGREEMENT_DATE" != "" ]; then
+            # Check if agreement is recent (within 30 days)
+            local current_date=$(date +%s)
+            local agreement_epoch=$(date -d "$AGREEMENT_DATE" +%s 2>/dev/null || echo "0")
+            local days_since=$(( (current_date - agreement_epoch) / 86400 ))
+            
+            if [ $days_since -gt 30 ]; then
+                echo -e "${YELLOW}⚠️ Ethics agreement expired (30+ days old). Renewal required.${NC}"
+                sleep 2
+                get_ethics_agreement
+            fi
+            return 0
+        fi
+    fi
+    
+    get_ethics_agreement
+}
+
+get_ethics_agreement() {
+    while true; do
+        show_legal_warning
+        echo -e "${YELLOW}$LEGAL_REQUIRED_DECLARATIONS${NC}"
+        echo ""
+        echo "$LEGAL_DECLARATION_INTRO"
+        echo ""
+        echo "$LEGAL_DECLARATION_OWNERSHIP"
+        echo ""
+        echo "$LEGAL_DECLARATION_UNDERSTAND"
+        echo ""
+        echo "$LEGAL_DECLARATION_RESPONSIBILITY"
+        echo ""
+        echo "$LEGAL_DECLARATION_LAWS"
+        echo ""
+        echo "$LEGAL_DECLARATION_REVOCATION"
+        echo ""
+        
+        # Add Russian specific disclaimer for Russian language
+        if [ "$CURRENT_LANGUAGE" = "ru" ]; then
+            echo -e "${CYAN}$LEGAL_RUSSIAN_DISCLAIMER${NC}"
+            echo ""
+            echo "$LEGAL_RUSSIAN_USER_CONFIRMS"
+            echo "$LEGAL_RUSSIAN_EDUCATIONAL_ONLY"
+            echo "$LEGAL_RUSSIAN_UNDERSTANDS_LAW"
+            echo "$LEGAL_RUSSIAN_FULL_RESPONSIBILITY"
+            echo "$LEGAL_RUSSIAN_COMPLIANCE"
+            echo ""
+        fi
+        
+        echo -e "${RED}$LEGAL_CANNOT_DECLARE${NC}"
+        echo ""
+        echo -e "${CYAN}$LEGAL_SOLEMNLY_AGREE${NC}"
+        echo ""
+        echo -n "$LEGAL_TYPE_AGREE "
+        read agreement
+        
+        # Support multiple language responses
+        case "$agreement" in
+            "I AGREE"|"Я СОГЛАСЕН"|"ICH STIMME ZU"|"J'ACCEPTE"|"ACEPTO"|"我同意"|"KABUL EDİYORUM")
+                # Save agreement locally and globally
+                mkdir -p "$CONFIG_DIR"
+                
+                # Local project agreement
+                cat > "$ETHICS_AGREEMENT_FILE" << EOF
+# BRS Ethics Agreement Record
+ETHICS_AGREED="true"
+AGREEMENT_DATE="$(date '+%Y-%m-%d %H:%M:%S')"
+AGREEMENT_IP="$(hostname -I | awk '{print $1}' 2>/dev/null || echo 'unknown')"
+AGREEMENT_USER="$(whoami)"
+AGREEMENT_HOSTNAME="$(hostname)"
+AGREEMENT_LANGUAGE="$CURRENT_LANGUAGE"
+EOF
+                
+                # Global user agreement record (permanent evidence)
+                GLOBAL_AGREEMENT_FILE="$HOME/.brs_agreed"
+                cat >> "$GLOBAL_AGREEMENT_FILE" << EOF
+# Brabus Recon Suite (BRS) - Legal Agreement Record
+# This file serves as permanent evidence of user consent
+# $COMPANY_NAME | $COMPANY_WEBSITE
+
+[AGREEMENT_$(date '+%Y%m%d_%H%M%S')]
+DATE="$(date '+%Y-%m-%d %H:%M:%S %Z')"
+USER="$(whoami)"
+HOSTNAME="$(hostname)"
+IP_ADDRESS="$(hostname -I | awk '{print $1}' 2>/dev/null || echo 'unknown')"
+WORKING_DIR="$(pwd)"
+BRS_VERSION="1.0"
+LANGUAGE="$CURRENT_LANGUAGE"
+AGREEMENT_TYPE="FULL_ETHICS_CONSENT"
+LEGAL_DECLARATION="I declare under penalty of perjury that I will use BRS only on networks and systems I own or have explicit written authorization to test"
+INDEMNIFICATION="I agree to indemnify and hold harmless $COMPANY_NAME from any claims arising from my use of this software"
+JURISDICTION="$COMPANY_JURISDICTION"
+TIMESTAMP_EPOCH="$(date +%s)"
+
+EOF
+                chmod 600 "$GLOBAL_AGREEMENT_FILE" 2>/dev/null || true
+                echo ""
+                echo -e "${GREEN}$LEGAL_AGREEMENT_RECORDED${NC}"
+                echo -e "${YELLOW}$LEGAL_LEGALLY_BINDING${NC}"
+                sleep 3
+                break
+                ;;
+            "EXIT"|"ВЫХОД"|"BEENDEN"|"SORTIR"|"SALIR"|"退出"|"ÇIKIŞ")
+                echo -e "${YELLOW}$LEGAL_EXITING${NC}"
+                exit 0
+                ;;
+            *)
+                echo -e "${RED}$LEGAL_INVALID_RESPONSE${NC}"
+                echo -e "${BLUE}$MENU_PRESS_ENTER${NC}"
+                read
+                ;;
+        esac
+    done
+}
 
 # Language system functions
 get_available_languages() {
@@ -377,6 +527,9 @@ chmod +x "$BASE_DIR/tools.sh" 2>/dev/null
 
 # Quick tool check on startup (without user interaction)
 quick_tool_check
+
+# Check ethics agreement before starting
+require_ethics_agreement
 
 # Main program loop
 show_banner

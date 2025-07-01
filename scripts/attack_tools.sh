@@ -2,10 +2,31 @@
 
 # Brabus Recon Suite (BRS) - Attack Tools Module
 # Network penetration testing and attack simulation tools
-# Company: EasyProTech LLC (www.easypro.tech)
+# Company: ООО "ИЗИПРОТЕК" (www.easypro.tech)
 # Author: brabus
 # Version: 1.0
-# WARNING: Use ONLY on authorized networks for security testing!
+
+# ⚠️ CRITICAL LEGAL WARNING ⚠️
+# UNAUTHORIZED USE IS ILLEGAL AND MAY RESULT IN CRIMINAL PROSECUTION
+# 
+# This module contains aggressive penetration testing tools that can cause
+# significant damage if misused. Use ONLY on systems you own or have explicit
+# written authorization to test.
+#
+# Unauthorized use may result in:
+# • Criminal charges under computer crime laws (CFAA, etc.)
+# • Substantial fines (potentially millions of dollars)
+# • Prison time (multiple years depending on jurisdiction)
+# • Permanent criminal record
+# • Civil lawsuits for damages
+#
+# BY USING THIS MODULE, YOU ACKNOWLEDGE:
+# • You own the target systems OR have explicit written authorization
+# • You understand applicable laws in your jurisdiction
+# • You accept FULL RESPONSIBILITY for your actions
+# • You will indemnify EasyProTech LLC from any claims
+#
+# IF YOU CANNOT MAKE THESE DECLARATIONS, EXIT NOW (Ctrl+C)
 
 RED='\033[0;31m'
 GREEN='\033[0;32m'
