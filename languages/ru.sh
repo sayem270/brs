@@ -126,7 +126,7 @@ LANG_CHANGE_SUCCESS="✅ Язык успешно изменен!"
 LANG_RESTART_REQUIRED="Пожалуйста, перезапустите приложение для применения изменений."
 
 # Company Information (Russian specific)
-COMPANY_NAME="ООО \"ИЗИПРОТЕК\""
+COMPANY_NAME="EasyProTech LLC"
 COMPANY_NAME_EN="EasyProTech LLC"
 COMPANY_WEBSITE="www.easypro.tech"
 COMPANY_CONTACT_TELEGRAM="@easyprotechaifactory"

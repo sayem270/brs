@@ -152,7 +152,7 @@ By using this software, you declare under penalty of perjury that:
 ## 📞 LEGAL CONTACT AND REPORTING
 
 ### For Legal Inquiries:
-- **Company**: ООО "ИЗИПРОТЕК" (EasyProTech LLC)
+- **Company**: EasyProTech LLC (EasyProTech LLC)
 - **Website**: www.easypro.tech
 - **Contact**: @easyprotechaifactory (Telegram)
 - **Jurisdiction**: Russian Federation
@@ -164,7 +164,7 @@ If you become aware of misuse of this software, please report it immediately to:
 - Software maintainers via @easyprotechaifactory (Telegram)
 
 ### Cooperation with Authorities:
-ООО "ИЗИПРОТЕК" is ready for full cooperation with law enforcement agencies of the Russian Federation in identifying and prosecuting those who use this software unethically or illegally.
+EasyProTech LLC is ready for full cooperation with law enforcement agencies of the Russian Federation in identifying and prosecuting those who use this software unethically or illegally.
 
 ---
 
@@ -208,4 +208,4 @@ The disclaimer of warranties, limitation of liability, indemnification clause, a
 
 **This document constitutes a legally binding agreement. If you have questions about your rights or obligations, consult with qualified legal counsel familiar with cybersecurity and computer crime law.**
 
-**ООО "ИЗИПРОТЕК" | www.easypro.tech | @easyprotechaifactory | Brabus Recon Suite v1.0** 
+**EasyProTech LLC | www.easypro.tech | @easyprotechaifactory | Brabus Recon Suite v1.0** 

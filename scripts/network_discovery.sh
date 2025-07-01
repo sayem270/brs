@@ -2,7 +2,7 @@
 
 # Brabus Recon Suite (BRS) - Network Discovery Module
 # Network reconnaissance and host enumeration script
-# Company: ООО "ИЗИПРОТЕК" (www.easypro.tech)
+# Company: EasyProTech LLC (www.easypro.tech)
 # Author: brabus
 # Version: 1.0
 

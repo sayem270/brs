@@ -1,8 +1,8 @@
-# 🚀 Brabus Recon Suite (BRS) v1.0.1 - OFFICIAL RELEASE
+# 🚀 Brabus Recon Suite (BRS) v1.0 - OFFICIAL RELEASE
 
-**Release Date**: July 1, 2025  
-**Version**: 1.0.1  
-**Company**: ООО "ИЗИПРОТЕК" (www.easypro.tech)  
+**Release Date**: June 30, 2025  
+**Version**: 1.0  
+**Company**: EasyProTech LLC (www.easypro.tech)  
 **Developer**: brabus  
 
 ---
@@ -175,4 +175,4 @@ sha512sum -c brs-v1.0.sha512
 
 **🛡️ This release represents a professional-grade penetration testing toolkit with comprehensive legal protections. Use responsibly and within the bounds of the law.**
 
-**ООО "ИЗИПРОТЕК" | Brabus Recon Suite v1.0.1 | July 1, 2025** 
+**EasyProTech LLC | Brabus Recon Suite v1.0 | June 30, 2025** 

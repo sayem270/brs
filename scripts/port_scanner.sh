@@ -2,7 +2,7 @@
 
 # Brabus Recon Suite (BRS) - Port Scanner Module
 # Comprehensive port scanning and service enumeration
-# Company: ООО "ИЗИПРОТЕК" (www.easypro.tech)
+# Company: EasyProTech LLC (www.easypro.tech)
 # Author: brabus
 # Version: 1.0
 

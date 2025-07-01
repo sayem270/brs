@@ -171,6 +171,6 @@ By using BRS, you commit to:
 
 *This document should be reviewed regularly and updated as laws and best practices evolve. When in doubt, consult with legal professionals familiar with cybersecurity law.*
 
-**ООО "ИЗИПРОТЕК" and the BRS development team are not responsible for misuse of this toolkit. Users bear full responsibility for their actions.**
+**EasyProTech LLC and the BRS development team are not responsible for misuse of this toolkit. Users bear full responsibility for their actions.**
 
 **Contact: @easyprotechaifactory | Website: www.easypro.tech** 

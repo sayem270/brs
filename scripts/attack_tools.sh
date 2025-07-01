@@ -2,7 +2,7 @@
 
 # Brabus Recon Suite (BRS) - Attack Tools Module
 # Network penetration testing and attack simulation tools
-# Company: ООО "ИЗИПРОТЕК" (www.easypro.tech)
+# Company: EasyProTech LLC (www.easypro.tech)
 # Author: brabus
 # Version: 1.0
 

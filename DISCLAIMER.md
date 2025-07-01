@@ -32,7 +32,7 @@ This toolkit should **ONLY** be used:
 
 ## 🚫 COMPLETE DISCLAIMER OF LIABILITY
 
-**ООО "ИЗИПРОТЕК" AND THE SOFTWARE AUTHORS:**
+**EasyProTech LLC AND THE SOFTWARE AUTHORS:**
 
 - Provide this software "AS IS" with **NO WARRANTY** of any kind
 - Are **NOT RESPONSIBLE** for any damage, harm, or legal consequences from your use
@@ -62,7 +62,7 @@ If you are unsure whether your intended use is legal or authorized, **DO NOT USE
 - Legal counsel familiar with cybersecurity law
 - Your organization's compliance team
 - The system owners for explicit written permission
-- ООО "ИЗИПРОТЕК" via @easyprotechaifactory (for licensing questions only)
+- EasyProTech LLC via @easyprotechaifactory (for licensing questions only)
 
 ---
 
@@ -73,4 +73,4 @@ If you are unsure whether your intended use is legal or authorized, **DO NOT USE
 *For full legal terms, see LEGAL.md*
 *For ethical guidelines, see ETHICS.md*
 
-**ООО "ИЗИПРОТЕК" | Brabus Recon Suite v1.0 | @easyprotechaifactory** 
+**EasyProTech LLC | Brabus Recon Suite v1.0 | @easyprotechaifactory** 

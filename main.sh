@@ -2,7 +2,7 @@
 
 # Brabus Recon Suite (BRS) - Main Control Script
 # Network reconnaissance and penetration testing toolkit
-# Company: ООО "ИЗИПРОТЕК" (www.easypro.tech)
+# Company: EasyProTech LLC (www.easypro.tech)
 # Author: brabus
 # Version: 1.0
 
