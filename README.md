@@ -380,7 +380,7 @@ This software is available under **TWO LICENSE OPTIONS**:
 - **Benefits**: No copyleft requirements, proprietary use allowed
 - **Contact**: @easyprotechaifactory (Telegram)
 
-**GPLv3 provides stronger legal protection than MIT** through:
+**GPLv3 provides enhanced legal protection** through:
 - Copyleft enforcement preventing unauthorized commercialization
 - Enhanced attribution requirements
 - Automatic license termination for violations
